@@ -1,0 +1,31 @@
+# kafka
+
+Producer <= TCP => Kafka Broker 9092 <= TCP => Consumer
+                    ------------
+                    |  Topic A |
+                    ------------
+                    ------------
+                    |  Topic B |
+                    ------------
+
+Producer <= TCP => Kafka Broker 9092 <= TCP => Consume
+                ----------------
+                |  Users Topic |
+                ----------------
+                    .sdd
+                    .dfg
+                    .sdf
+                    .sfssd
+                    .sdfsd
+                    .sd
+                    .sds
+                    .sdfsd
+                    .sdfs
+                    .sdf
+                ------------
+
+Each msg is referred to by {topic, position -> very fast access} 
+
+Consumer is pulling the information - not a push model
+                   
+
